@@ -1,0 +1,23 @@
+html {font-family: "Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;}
+
+.flex{
+  display: flex;
+}
+
+.el-menu-item-group__title{
+  display: none !important;
+}
+
+.height-full{
+  height: 100% !important;
+}
+
+// 更改elment默认样式
+.el-calendar-table,.el-calendar-day,.el-calendar,.el-calendar-table .el-calendar-day{
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.el-calendar__body{
+  height: calc(100% - 84px);
+}
